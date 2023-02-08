@@ -1,0 +1,161 @@
+{
+  "update.mode": "manual",
+  // let's go faster
+  "search.exclude": {
+    "{.idea,.history,logs,dist}/**": true,
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "**/mp_modules": true,
+    "en5LiteService": true,
+    "enService": true,
+    "pincoService": true
+  },
+  "files.exclude": {
+    "{.idea,.history,logs}/**": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    // sometimes
+    // "**/*.*.map": {
+    //   "when": "$(basename)"
+    // },
+    // "**/*.js": {
+    //   "when": "$(basename).ts"
+    // },
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "explorer.compactFolders": false,
+  "files.eol": "\n",
+
+  // all about editor
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  // Font
+  "editor.fontLigatures": true, // that's cool!
+  "editor.fontFamily": "Fira Code",
+  // false when reading the source-code
+  "javascript.validate.enable": true,
+  "editor.formatOnSave": true,
+  // snippet
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  // better suggestion or trigger
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vs-seti",
+  "workbench.startupEditor": "newUntitledFile", // give me new page bro
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "extensions.ignoreRecommendations": true, // shutup
+
+  // Eslint
+  "eslint.packageManager": "pnpm",
+  "eslint.validate": ["ts", "javascript", "javascriptreact", "vue", "typescript", "typescriptreact", "typescript"],
+  "eslint.format.enable": true,
+
+  // prettier
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 120,
+  "prettier.arrowParens": "avoid",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // conventionalCommits
+  "conventionalCommits.emojiFormat": "emoji",
+  "conventionalCommits.lineBreak": "\\n",
+
+  "oneDarkPro.italic": false,
+  // 翻译插件 "Comment Translate"
+  "commentTranslate.targetLanguage": "zh-CN",
+  "commentTranslate.source": "Baidu",
+
+  // sometimes there‘s something annoying
+  // "css.lint.emptyRules": "ignore",
+  // "less.lint.emptyRules": "ignore",
+  // "scss.lint.emptyRules": "ignore",
+
+  // markdown
+  "[markdown]": {
+    "editor.defaultFormatter": "mervin.markdown-formatter",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+
+  /*
+   * base on `js-beautify`
+   * see https://github.com/beautify-web/js-beautify#options
+   */
+  "markdownFormatter.formatOpt": {
+    "indent_size": 2,
+    "semi": false,
+    "indent_with_tabs": false,
+    "brace_style": "collapse,preserve-inline" // Destructuring inline
+  },
+
+  // others
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "html.format.extraLiners": "",
+  "files.autoSaveDelay": 0,
+  "autoimport.filesToScan": "./src/**/*.{ts,tsx}",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "typescript.tsserver.log": "verbose"
+}
