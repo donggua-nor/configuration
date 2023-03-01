@@ -110,6 +110,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // vscode-leetcode
+  "leetcode.defaultLanguage": "javascript",
+  "leetcode.showDescription": "In File Comment",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commentDescription": false,
+
   // conventionalCommits
   "conventionalCommits.emojiFormat": "emoji",
   "conventionalCommits.lineBreak": "\\n",
