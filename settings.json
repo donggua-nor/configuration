@@ -126,8 +126,7 @@
 
   // markdown
   "[markdown]": {
-    "editor.defaultFormatter": "mervin.markdown-formatter",
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.quickSuggestions": {
       "other": true,
       "comments": true,
@@ -136,16 +135,6 @@
   },
   "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
 
-  /*
-   * base on `js-beautify`
-   * see https://github.com/beautify-web/js-beautify#options
-   */
-  "markdownFormatter.formatOpt": {
-    "indent_size": 2,
-    "semi": false,
-    "indent_with_tabs": false,
-    "brace_style": "collapse,preserve-inline" // Destructuring inline
-  },
 
   // others
   "diffEditor.ignoreTrimWhitespace": false,
