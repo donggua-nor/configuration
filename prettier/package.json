@@ -1,0 +1,12 @@
+{
+  "name": "@donggua/prettier-config",
+  "version": "1.0.0",
+  "description": "Personal Prettier config",
+  "main": "index.json",
+  "keywords": ["prettier-config"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "donggua <donggua.nor@gmail.com> (https://github.com/donggua-nor)",
+  "license": "MIT"
+}
