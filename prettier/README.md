@@ -1,11 +1,11 @@
-# `@donggua/prettier-config`
+# `dg-prettier-config`
 
 ## Usage
 
 #### Install
 
 ```bash
-$ ${ur pkgManager} add @donggua/prettier-config -D
+$ ${ur pkgManager} add dg-prettier-config -D
 ```
 
 #### Configure
@@ -15,12 +15,12 @@ $ ${ur pkgManager} add @donggua/prettier-config -D
 ```json
 {
   // ...
-  "prettier": "@donggua/prettier-config"
+  "prettier": "dg-prettier-config"
 }
 ```
 
 - `prettier.config.js` OR `.prettierrc.js`
 
 ```js
-module.exports = require('@donggua/prettier-config')
+module.exports = require('dg-prettier-config')
 ```

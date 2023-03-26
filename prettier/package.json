@@ -1,5 +1,5 @@
 {
-  "name": "@donggua/prettier-config",
+  "name": "dg-prettier-config",
   "version": "1.0.0",
   "description": "Personal Prettier config",
   "main": "index.json",
