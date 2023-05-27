@@ -43,6 +43,7 @@
   "editor.suggest.preview": true,
   "editor.suggestSelection": "first",
   "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
   // Font
   "editor.fontLigatures": true, // that's cool!
   "editor.fontFamily": "Fira Code",
@@ -109,6 +110,12 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[sass]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // vscode-leetcode
   "leetcode.defaultLanguage": "javascript",
@@ -140,7 +147,6 @@
     }
   },
   "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
-
 
   // others
   "diffEditor.ignoreTrimWhitespace": false,
