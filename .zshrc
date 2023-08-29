@@ -110,6 +110,10 @@ pp() {
 
 # pkg manager
 alias y="yarn"
+alias ys="yarn start"
+alias yt="yarn tsc"
+alias yb="yarn build"
+alias yd="yarn dev"
 # pnpm
 export PNPM_HOME="/Users/donggua/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
@@ -120,14 +124,15 @@ alias pnpx="pnpm dlx" # when pnpm >= 6
 
 # git
 alias gl="git log"
+alias glm="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>' --date=format:'%Y-%m-%d %H:%M:%S'"
 alias gpl="git pull"
 alias gps="git push"
 alias gup="git branch --set-upstream-to=origin/master master"
-alias gls=""
+alias gcp="git cherry-pick"
 
 # alias for proxy
 rush() {
-  export ALL_PROXY="http://127.0.0.1:8118"
+  export ALL_PROXY="http://127.0.0.1:8090"
   echo GO!GO!ZEPPELI!
 }
 
